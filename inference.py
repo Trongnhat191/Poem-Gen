@@ -2,7 +2,7 @@ import torch
 from model import TransformerModel
 import torch.nn.functional as F
 from PoemDataset import PoemDataset
-from main import tokenizer, decode, build_vocab
+from train import tokenizer, decode, build_vocab
 import pandas as pd
 
 DATASET_PATH = 'poem_dataset_final/poem_final.csv'
